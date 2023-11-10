@@ -4,11 +4,6 @@ body {
 }
 
 
-img.logo {
-    width: 100%;
-    width: 100%;
-}
-
 .navbar-item img.logo {
     max-height: 4rem;
 }
