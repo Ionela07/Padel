@@ -20,25 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-;
-
-function toggleDropdown() {
-    var dropdownMenu = document.getElementById('dropdown-menu');
-    dropdownMenu.classList.toggle('is-active');
-}
-
-// Get the More link element
-var moreLink = document.querySelector('.navbar-item.has-dropdown');
-
-// Add a click event listener to the More link
-moreLink.addEventListener('click', toggleDropdown);
-
-// Function to toggle the dropdown
-function toggleDropdown() {
-    var dropdownMenu = document.getElementById('dropdown-menu');
-    dropdownMenu.classList.toggle('is-active');
-}
-
 
 
 
