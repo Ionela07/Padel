@@ -20,17 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-// $(document).ready(function () {
-
-//     // Check for click events on the navbar burger icon
-//     $(".navbar-burger").click(function () {
-
-//         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-//         $(".navbar-burger").toggleClass("is-active");
-//         $(".navbar-menu").toggleClass("is-active");
-
-//     });
-// });
+;
 
 function toggleDropdown() {
     var dropdownMenu = document.getElementById('dropdown-menu');
@@ -50,17 +40,6 @@ function toggleDropdown() {
 }
 
 
-
-
-// document.getElementById("sectionDropdown").addEventListener("change", function () {
-//     var selectedSection = this.value;
-//     if (selectedSection) {
-//         var targetSection = document.getElementById(selectedSection);
-//         if (targetSection) {
-//             targetSection.scrollIntoView({ behavior: "smooth" });
-//         }
-//     }
-// });
 
 
 function toggleContent(contentId) {
