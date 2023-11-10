@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+img.logo {
+    width: 100%;
+    width: 100%;
+}
+
+.navbar-item img.logo {
+    max-height: 4rem;
+}
+
+a.navbar-item {
+    padding: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .navbar-link {
+        width: 100px;
+    }
+
+    .navbar-dropdown.is-boxed {
+        width: 100px;
+        height: 150px;
+    }
+}
+
+
+div.navbar-dropdown {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+.navbar-dropdown.is-boxed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#imagetop {
+    margin-top: 64px;
+}
+
+div.columns.is-mobile {
+    margin-top: 15px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+div.container.is-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.notification {
+    border-radius: 0;
+}
+
+#logotextname {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#about-section {
+    margin: 25px;
+}
+
+h1.title {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#container1 {
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer1 {
+    background-color: #363636;
+}
+
+#textfooter {
+    color: white;
+}
+
+#titles {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#card {
+    border: 1px #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.card-content1 {
+    display: none;
+    padding: 10px;
+}
